@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TacGiaActivity">
+    <LinearLayout
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THOÁT" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:text="Mã TG"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextMa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:text="Tên TG"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THÊM" />
+
+        <Button
+            android:id="@+id/buttonSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SỬA" />
+
+        <Button
+            android:id="@+id/buttonXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XÓA" />
+
+        <Button
+            android:id="@+id/buttonTim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TÌM" />
+    </LinearLayout>
+    <GridView
+        android:numColumns="2"
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </GridView>
+
+
+</LinearLayout>
